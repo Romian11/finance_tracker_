@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100vh;
+}
+
+.resgister-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+/* transection page */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+/* transection page */
+
+/* antd icons */
+
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+.inactive-icon {
+  color: gray;
+}
+
+/* Common Styles */
+body {
+  background-color: #1a1a1a;
+  color: #ccc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.ant-modal-content {
+  background-color: #333;
+  color: #ccc;
+}
+
+.ant-modal-header {
+  background-color: #333;
+  color: #fff;
+}
+
+.ant-modal-footer {
+  background-color: #333;
+}
+
+.ant-modal-title {
+  color: #fff;
+}
+
+.ant-form-item-label > label {
+  color: #ccc;
+}
+
+.ant-select-selector {
+  background-color: #444 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.ant-select-dropdown {
+  background-color: #444 !important;
+  color: #fff !important;
+}
+
+.ant-progress-bg {
+  background-color: #007bff !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #333;
+  color: #fff;
+}
+
+.ant-table-tbody > tr > td {
+  background-color: #444;
+  color: #9d9d9d;
+}
+
+.ant-btn-primary {
+  background-color: #007bff;
+  border: none;
+}

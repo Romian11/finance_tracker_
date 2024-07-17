@@ -1,0 +1,49 @@
+/* HomePage Component */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.filters h6 {
+  margin: 0 0 0.5rem 0;
+}
+
+.filters .ant-select {
+  width: 100%;
+}
+
+.filters .ant-select-selector {
+  background-color: #444;
+  color: #fff;
+  border: none;
+}
+
+.switch-icons {
+  display: flex;
+  align-items: center;
+}
+
+.active-icon {
+  color: #007bff;
+}
+
+.inactive-icon {
+  color: #ccc;
+}
+
+.table {
+  background-color: #444;
+  color: #fff;
+}
+
+.table thead {
+  background-color: #333;
+}
+
+.table thead th {
+  color: #fff;
+}

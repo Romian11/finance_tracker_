@@ -1,0 +1,42 @@
+#email,#password,#name{
+    position: relative;
+    width: 300px;
+    /* margin-top: 15px; */
+}
+h1{
+    color: #222222;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1cm;
+}
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(218deg 50% 91%);
+} */
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: #333333;
+    background:hsl(213deg 85% 97%);
+    margin-top: 150px;
+    margin-left: 500px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+}
+Input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #d4cfcf;
+    font-size:1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}

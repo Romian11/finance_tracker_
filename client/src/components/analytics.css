@@ -1,0 +1,25 @@
+/* Analytics Component */
+.con {
+  margin: auto;
+  width: max-content;
+  /* border: solid 2px red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card {
+  background-color: #444;
+  color: #ccc;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.card-header {
+  background-color: #333;
+  color: #fff;
+}
+
+.card-body {
+  color: #ccc;
+}
